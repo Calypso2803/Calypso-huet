@@ -1,0 +1,67 @@
+@import url("https://fonts.googleapis.com/css?family=Lora|Roboto&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Montserrat&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Roboto+Mono&display=swap" rel="stylesheet");
+@import url("components/container.css");
+@import url("components/avatar.css");
+@import url("components/button.css");
+@import url("components/banner.css");
+@import url("components/card.css");
+
+body { 
+	background: #45454d; 
+	font-family: 'Karla', sans-serif;
+	font-size: 18px
+	margin: 0px;
+	color: white;
+	text-align: center;
+	font-family: 'Dosis', sans-serif;
+	}
+
+h1  { 
+font-family: 'Oswald', sans-serif;
+	}
+ 
+ h2,h3 { 
+	font-family: 'Oswald', sans-serif;
+	font-weight: bold;
+}
+	
+	a { 
+		text-decoration: none;
+}
+ 
+ .card-white {
+	background: black;
+	padding: 1px;
+	box-shadow: 0px 10px 30px white;
+	border-radius: 2px;
+	margin: 0px 0px;
+	text-align: center;
+	}
+.img-circle {
+	border-radius: 50%;
+}
+
+.list-inline {
+	list-style: none;
+	padding-left: 0px;
+}	
+.list-inline li {
+	display: inline;
+	padding: 10px;
+}
+.list-inline i {
+	font-size: 50px;
+	color: #ffdcf7;
+}
+.list-inline i:hover {
+	color: white;
+}
+/* Design adjustments using id (1% design remaining) */
+#introduction p {
+	margin-bottom: 40px;
+}
+
+
+
+ 
